@@ -1,3 +1,16 @@
+.img-logo{
+    display: flex;
+    justify-content: center;
+}
+.img-login{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav{
+    flex-wrap: wrap;
+    justify-content: center;
+}
 .pt-serif-regular {
     font-family: "PT Serif", serif;
     font-weight: 400;
