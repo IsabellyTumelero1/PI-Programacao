@@ -1,30 +1,42 @@
-.img-logo{
+/* fundo de menu */
+header{
+    background-color: #F3E4E4; 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
+/* config imagem logo */
+.img-logo{
+    justify-content: center;
+}
+/* config imagem menu */
 .img-login{
-    display: flex;
-    justify-content: flex-end;
+    justify-content: end;
 }
-
+/* fundo de menu */
 .nav{
     flex-wrap: wrap;
     justify-content: center;
 }
+/* fundo de menu */
 .pt-serif-regular {
     font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
     color: black;
 }
+/* div fundo */
 .div-header{
     background-color: #E9A0A1;
     border-radius: 10px;
     width: 40%;
+    height: 50px;
 }
+/* cor do itens do menu */
 .menu:hover{
     color: white;
 }
+/* cor de fundo dropdown quando clica */
 .dropdown-fundo a:active {
     background-color: #F3E4E4;
     color: black;
