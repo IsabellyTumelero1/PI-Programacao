@@ -16,7 +16,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
 }
-/* fundo de menu */
+/* tipo de fundo menu */
 .pt-serif-regular {
     font-family: "PT Serif", serif;
     font-weight: 400;
@@ -59,6 +59,6 @@ header{
 
 /*cor de fundo caroçel*/
 .carocel-cor-fundo{
-    background-color: black;
     padding: 150px;
+    background-color: black;
 }
