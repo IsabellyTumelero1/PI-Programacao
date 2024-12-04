@@ -53,6 +53,12 @@ header{
 /* posicionamento da imagem sobre o fundo degrade*/
 .imagem-do-fundo-degrade{
     position: absolute;  /* A imagem será posicionada sobre o fundo */
-    width: 60%;  /* Tamanho da imagem (ajuste conforme necessário) */   
-    height: auto;  /* A altura será ajustada automaticamente para manter a proporção */
+    width: 90%;  /* Tamanho da imagem (ajuste conforme necessário) */   
+    height: 80%;  /* A altura será ajustada automaticamente para manter a proporção */
+}
+
+/*cor de fundo caroçel*/
+.carocel-cor-fundo{
+    background-color: black;
+    padding: 150px;
 }
