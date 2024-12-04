@@ -1,7 +1,7 @@
 /* fundo de menu */
 header{
     background-color: #F3E4E4;
-    
+
 }
 /* config imagem logo */
 .img-logo{
@@ -39,4 +39,20 @@ header{
 .dropdown-fundo a:active {
     background-color: #F3E4E4;
     color: black;
+}
+/* cor do fundo da imagem no body*/
+.fundo-degrade{
+    height: 100vh;  /* Garantir que o body ocupe a tela inteira */
+    margin: 0;  /* Remover margem padrão */
+    background: 
+        linear-gradient(to bottom, #e99f9f6e 50%, #F3E4E4 50%);  /* Degradê entre as duas cores */
+    display: flex;  /* Usar Flexbox para centralizar a imagem */
+    justify-content: center;  /* Centraliza a imagem horizontalmente */
+    align-items: center;  /* Centraliza a imagem verticalmente */
+}
+/* posicionamento da imagem sobre o fundo degrade*/
+.imagem-do-fundo-degrade{
+    position: absolute;  /* A imagem será posicionada sobre o fundo */
+    width: 60%;  /* Tamanho da imagem (ajuste conforme necessário) */   
+    height: auto;  /* A altura será ajustada automaticamente para manter a proporção */
 }
