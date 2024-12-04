@@ -25,4 +25,7 @@
 .menu:hover{
     color: white;
 }
-    
+.dropdown-fundo a:active {
+    background-color: #F3E4E4;
+    color: black;
+}
