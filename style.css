@@ -21,5 +21,8 @@
     background-color: #E9A0A1;
     border-radius: 10px;
     width: 40%;
-
 }
+.menu:hover{
+    color: white;
+}
+    
