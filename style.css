@@ -1,11 +1,21 @@
+
 /* fundo de menu */
 header{
+    display: flex;
     background-color: #F3E4E4;
-
+    align-items: center; 
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+    position: relative;
 }
 /* config imagem logo */
 .img-logo{
-    justify-content: center;
+    position: absolute;
+    top: -30%;
+    transform: translateX(-100);
+    z-index: 0;
+    justify-content: center;  
 }
 /* config imagem menu */
 .img-login{
@@ -13,8 +23,10 @@ header{
 }
 /* fundo de menu */
 .nav{
+    margin-top: 8%;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 10;
 }
 /* tipo de fundo menu */
 .pt-serif-regular {
