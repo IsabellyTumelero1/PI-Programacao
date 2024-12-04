@@ -1,9 +1,7 @@
 /* fundo de menu */
 header{
-    background-color: #F3E4E4; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #F3E4E4;
+    
 }
 /* config imagem logo */
 .img-logo{
@@ -26,11 +24,12 @@ header{
     color: black;
 }
 /* div fundo */
-.div-header{
+.header-conteudo-menu{
     background-color: #E9A0A1;
     border-radius: 10px;
     width: 40%;
     height: 50px;
+    align-items: center;
 }
 /* cor do itens do menu */
 .menu:hover{
