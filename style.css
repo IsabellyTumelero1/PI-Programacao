@@ -5,14 +5,14 @@ header{
     background-color: #F3E4E4;
     align-items: center; 
     width: 100%;
-    height: 300px;
+    height: 200px;
     justify-content: center;
     position: relative;
 }
 /* config imagem logo */
 .img-logo{
     position: absolute;
-    top: -30%;
+    top: -60%;
     transform: translateX(-100);
     z-index: 0;
     justify-content: center;  
@@ -57,7 +57,7 @@ header{
 }
 /* cor do fundo da imagem no body*/
 .fundo-degrade{
-    height: 100vh;  /* Garantir que o body ocupe a tela inteira */
+    height: 75vh;  /* Garantir que o body ocupe a tela inteira */
     margin: 0;  /* Remover margem padrão */
     background: 
         linear-gradient(to bottom, #e99f9f6e 50%, #F3E4E4 50%);  /* Degradê entre as duas cores */
@@ -68,8 +68,8 @@ header{
 /* posicionamento da imagem sobre o fundo degrade*/
 .imagem-do-fundo-degrade{
     position: absolute;  /* A imagem será posicionada sobre o fundo */
-    width: 90%;  /* Tamanho da imagem (ajuste conforme necessário) */   
-    height: 80%;  /* A altura será ajustada automaticamente para manter a proporção */
+    width: 85%;  /* Tamanho da imagem (ajuste conforme necessário) */   
+    height: 60%;  /* A altura será ajustada automaticamente para manter a proporção */
 }
 
 /*cor de fundo caroçel*/
@@ -77,6 +77,7 @@ header{
     padding: 100px;
     background-color: black;
     height: auto;
+    padding-top: 2%;
 }
 /*alinhamento div carrossel*/
 .carrossel-alinhamento{
@@ -90,4 +91,23 @@ header{
     align-content: center;
     justify-content: center;
     width: 100%;
+    font-size: 128px;
+    color: #E9A0A1;
 }
+
+.botao-carrossel{
+    background-color: #E9A0A1; /* Cor de fundo com transparência */
+    color: #000000; /* Cor do texto do botão */
+    border: none; /* Sem borda */
+    padding: 7px 20px; /* Espaçamento interno do botão */
+    font-size: 20px; /* Tamanho da fonte */
+    cursor: pointer; /* Aponta o cursor como "mão" ao passar sobre o botão */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+.moon-dance-regular {
+    font-family: "Moon Dance", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
