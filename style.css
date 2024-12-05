@@ -77,7 +77,7 @@ header{
     padding: 100px;
     background-color: black;
     height: auto;
-    padding-top: 2%;
+    padding-top: 1%;
 }
 /*alinhamento div carrossel*/
 .carrossel-alinhamento{
@@ -91,7 +91,6 @@ header{
     align-content: center;
     justify-content: center;
     width: 100%;
-    font-size: 128px;
     color: #E9A0A1;
 }
 
@@ -109,6 +108,7 @@ header{
     font-family: "Moon Dance", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size: 90px
 }
 .container {
     text-align: center;
