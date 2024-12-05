@@ -71,6 +71,20 @@ header{
 
 /*cor de fundo caroçel*/
 .carocel-cor-fundo{
-    padding: 150px;
+    padding: 100px;
     background-color: black;
+    height: auto;
+}
+/*alinhamento div carrossel*/
+.carrossel-alinhamento{
+    position: absolute;  /* A imagem será posicionada sobre o fundo */
+    width: 90%;  /* Tamanho da imagem (ajuste conforme necessário) */   
+    height: 80%;
+}
+/*título carrossel*/
+.titulo-carrossel{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
 }
