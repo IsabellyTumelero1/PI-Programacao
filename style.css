@@ -91,6 +91,7 @@ header{
     align-content: center;
     justify-content: center;
     width: 100%;
+<<<<<<< HEAD
     font-size: 128px;
     color: #E9A0A1;
 }
@@ -111,3 +112,37 @@ header{
     font-style: normal;
 }
   
+=======
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.image-box {
+    position: relative;
+}
+
+.image-box img {
+    width: 700px;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(20%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+>>>>>>> de8e17c926cda3633fa091dec3ec8be301a2b2d8
