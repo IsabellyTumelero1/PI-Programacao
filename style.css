@@ -45,6 +45,7 @@ header{
     width: 50%;
     height: 50px;
     align-items: center;
+    justify-content: center;
 }
 /* cor do itens do menu */
 .menu:hover{
